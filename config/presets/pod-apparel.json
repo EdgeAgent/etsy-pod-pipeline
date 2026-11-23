@@ -1,0 +1,133 @@
+{
+  "_comment": "PRESET: POD apparel. Price bands are USD, from docs/research-findings-2026-11-23.md (seller-tool data, directional). The pricing block's product/shipping costs are EXAMPLE placeholders, not live Printify catalog prices \u2014 replace them at Stage 5 with your provider's real figures before pricing anything.",
+  "affiliate_picks": [
+    {
+      "category": "Resistance bands and home-workout gear",
+      "channel": "Amazon Associates \u2014 workout-content posts and the shop's social profiles",
+      "notes": "Proven sellers in the same niche as the apparel; promoted off Etsy only (docs/affiliate-model.md). Amazon Sports category rate ~3% (verify current table).",
+      "price_band": [
+        10.0,
+        60.0
+      ]
+    },
+    {
+      "category": "Gym bags and shaker bottles",
+      "channel": "Amazon Associates \u2014 gift-guide content on the shop's blog/socials",
+      "notes": "Gift-season staple; disclosure line required on every post.",
+      "price_band": [
+        10.0,
+        70.0
+      ]
+    },
+    {
+      "category": "Fitness trackers and smart scales",
+      "channel": "Amazon Associates \u2014 review/comparison content",
+      "notes": "Higher ticket; only promote models you can describe honestly.",
+      "price_band": [
+        30.0,
+        150.0
+      ]
+    }
+  ],
+  "brief": {
+    "audience": "gym lovers",
+    "brand": "RiseOrConquer",
+    "design_phrase": "Rise or Conquer",
+    "keywords": [
+      "motivational shirt",
+      "gym motivation tee",
+      "rise or conquer",
+      "workout shirt",
+      "fitness gift",
+      "gym lover gift",
+      "inspirational tee",
+      "no excuses shirt",
+      "training shirt",
+      "mindset shirt"
+    ],
+    "materials": [
+      "100% Airlume combed and ring-spun cotton"
+    ],
+    "product": "Unisex T-Shirt",
+    "title_keywords": [
+      "Motivational Gym Shirt",
+      "Workout Gift"
+    ]
+  },
+  "creation_path": [
+    "Stage 3 research names the micro-niche and the gap (audience + occasion + style)",
+    "Write the design brief: your phrase, your concept, fonts with commercial licences \u2014 never a screenshot of a competitor's design",
+    "Produce the original design to spec: transparent PNG, 300 DPI, sized to the Printify print area; QC by eye (Stage 4)",
+    "Build the product in Printify (Stage 5) and price it with pipeline/pricing.py on REAL catalog costs",
+    "Generate the listing pack with pipeline/listing.py (Stage 6 SEO treatment), pass the publish gate (Stage 7)"
+  ],
+  "delivery": "Printify fulfils each order; Etsy collects payment; nothing ships from you",
+  "id": "pod-apparel",
+  "launch_checklist": [
+    "Stage 1: intake answered \u2014 existing shop health-checked (Etsy Payments active, bank verified, shop policies set, production partners disclosed); no shop yet \u2192 appendix walkthrough first (docs/appendix-shop-creation.md)",
+    "Stage 2: Printify connected, Canada/US provider picked, print specs recorded",
+    "Stage 3: niche scored with pipeline/scoring.py \u2014 no candidate under the IP gate ships",
+    "Stage 4: designs original, 300 DPI transparent PNG, QC by eye, AI disclosure line ready",
+    "Stage 5: real Printify catalog costs in the pricing config; profit positive, Offsite Ads case survivable",
+    "Stage 6: listing pack generated; IP tripwire clean",
+    "Stage 7: human approves the exact product + pack; publish; read the live listing back",
+    "Stage 8: auto-fulfilment ON only after the first read-back; weekly review scheduled"
+  ],
+  "name": "Print-on-Demand Apparel",
+  "niche": "Motivational apparel for a specific audience (starter brand: RiseOrConquer, gym/mindset) \u2014 see docs/starter-plan-riseorconquer.md",
+  "pricing": {
+    "_comment": "EXAMPLE COSTS ONLY (USD) \u2014 not live Printify catalog prices. Replace product_cost/shipping_cost at Stage 5.",
+    "high_volume_shop": false,
+    "international": false,
+    "offsite_ads": false,
+    "price": 34.95,
+    "product_cost": 14.5,
+    "shipping_charged": 0.0,
+    "shipping_cost": 4.75,
+    "target_profit": 8.0
+  },
+  "products": [
+    {
+      "name": "Micro-niche slogan sweatshirt",
+      "notes": "Niche slogans on sweatshirts reported moving in 2026; cold-month skew",
+      "price_band": [
+        32.0,
+        48.0
+      ]
+    },
+    {
+      "name": "Hobby-identity tee (pickleball, disc golf, climbing)",
+      "notes": "Tool-reported profitable niche band, USD",
+      "price_band": [
+        28.0,
+        45.0
+      ]
+    },
+    {
+      "name": "Occupation-pride tee, sub-specialty (NICU nurse, CRNA)",
+      "notes": "Below the umbrella term converts; the umbrella term is saturated",
+      "price_band": [
+        26.0,
+        42.0
+      ]
+    },
+    {
+      "name": "Pet-breed personalised tee",
+      "notes": "Specific breeds/personalisation, never generic 'dog mom'",
+      "price_band": [
+        24.0,
+        38.0
+      ]
+    },
+    {
+      "name": "Niche mug (review-builder)",
+      "notes": "Lower ticket; accessories drive reviews that lift the whole shop",
+      "price_band": [
+        15.0,
+        25.0
+      ]
+    }
+  ],
+  "shop_type": "physical-pod",
+  "summary": "Original designs on tees, sweatshirts and hoodies, printed per order by a Printify provider. The pipeline's original path: Stages 1-8 as written. Research verdict (2026-11-23): generic tees and generic motivational quotes are saturated; micro-niches (audience + occasion + style) are where new shops get in."
+}

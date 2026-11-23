@@ -1,0 +1,126 @@
+{
+  "_comment": "PRESET: 3D-print files (STL). No credible public source publishes STL-specific Etsy price bands (searched 2026-11-23 \u2014 see docs/research-findings-2026-11-23.md, 'What could not be verified'), so the bands below are ESTIMATES anchored to the general digital-download bands and must be validated with the Stage 3 method before launch. Models must be your own originals (modelled e.g. in Blender, free/open source): since 2025-06-10 Etsy's Creativity Standards require computerised-tool items to be based on the seller's original design, and digital items must be made/designed by the seller.",
+  "affiliate_picks": [
+    {
+      "category": "3D printers (the machines your files run on)",
+      "channel": "Amazon Associates \u2014 print-log and review content",
+      "notes": "Only printers you have actually used; Amazon rates for this category are low (~2.5-3%) \u2014 volume, not rate, is the play. Promoted off Etsy only (docs/affiliate-model.md).",
+      "price_band": [
+        180.0,
+        500.0
+      ]
+    },
+    {
+      "category": "Filament (PLA/PETG in the colours your models show)",
+      "channel": "Amazon Associates \u2014 model showcase posts",
+      "notes": "Name the exact filament in your test-print photos; buyers buy the look.",
+      "price_band": [
+        15.0,
+        35.0
+      ]
+    },
+    {
+      "category": "Printer tools, nozzles and build plates",
+      "channel": "Amazon Associates \u2014 setup/maintenance content",
+      "notes": "Consumables and upgrades your audience re-orders.",
+      "price_band": [
+        10.0,
+        60.0
+      ]
+    }
+  ],
+  "brief": {
+    "audience": "3D printing hobbyists",
+    "brand": "our shop",
+    "delivery_type": "digital",
+    "design_phrase": "Articulated Garden Gnome",
+    "keywords": [
+      "stl file",
+      "3d print file",
+      "garden gnome stl",
+      "3d printable",
+      "stl download",
+      "gnome figurine",
+      "3d model file",
+      "print in place",
+      "garden decor stl",
+      "articulated gnome"
+    ],
+    "materials": [
+      "Digital file: STL (ZIP for multi-part models) \u2014 no physical item ships"
+    ],
+    "product": "STL File Pack",
+    "title_keywords": [
+      "3D Print File",
+      "Instant Download"
+    ]
+  },
+  "creation_path": [
+    "Stage 3 research names the hobby/problem and cross-checks demand on eBay sold listings (Etsy publishes no STL sales data)",
+    "Write the model brief: the problem it solves or the niche it serves, dimensions, print constraints \u2014 your design, from a blank file",
+    "Model it in Blender (free, open source) and TEST-PRINT every model yourself; a model buyers can't print is a defect (Stage 4)",
+    "Export clean STL (ZIP for multi-part), <=20 MB per file, max 5 per listing; price with pipeline/pricing.py at zero cost (Stage 5)",
+    "Generate the listing pack with pipeline/listing.py (Stage 6): printer settings that worked, scale, licence terms; publish gate (Stage 7); test-download"
+  ],
+  "delivery": "Instant download of .stl files (an accepted Etsy upload format; ZIP for multi-part models) \u2014 buyers print at home. Optional second lane: sell physical prints of the SAME original models (see notes)",
+  "id": "stl-files",
+  "launch_checklist": [
+    "Stage 1: intake answered \u2014 existing shop health-checked (Etsy Payments active, bank verified, shop policies set, production partners disclosed); no shop yet \u2192 appendix walkthrough first (docs/appendix-shop-creation.md)",
+    "Stage 2: SKIPPED for files (no Printify). Only relevant if you later print your own models to sell physically \u2014 then fulfilment is your own printer, not Printify",
+    "Stage 3: model ideas scored with pipeline/scoring.py; cross-check demand on eBay sold listings; confirm each model is YOUR original (June 2025 Creativity Standards)",
+    "Stage 4: model in Blender (or your tool); test-print every model yourself; fix failures before listing; export clean STL, ZIP multi-part sets; each file <=20 MB, max 5 per listing",
+    "Stage 5: price the file with the calculator at zero costs; if selling physical prints too, cost them separately at filament+power+wear+failures+time and price 3-5x",
+    "Stage 6: listing pack generated; description states INSTANT DOWNLOAD (file lane), printer settings that worked, scale, and licence terms (personal use unless you grant more); photos show YOUR test print, with a scale reference",
+    "Stage 7: human approves the exact files + pack; publish as a Digital listing; read the live listing back and test-download",
+    "Stage 8: watch print-failure questions and licence misuse reports; a model buyers can't print is a defect \u2014 fix the file, update the listing; weekly review as written"
+  ],
+  "name": "3D-Print Files (STL)",
+  "niche": "Original models for a specific hobby/problem (board-game inserts, replacement parts, desk/garden collectibles) \u2014 validated per-model with the Stage 3 method, eBay sold listings as a cross-check",
+  "pricing": {
+    "_comment": "Digital sale of the file: zero production/shipping costs. Price shown is an ESTIMATE inside the unverified STL band \u2014 validate first.",
+    "high_volume_shop": false,
+    "international": false,
+    "offsite_ads": false,
+    "price": 14.95,
+    "product_cost": 0.0,
+    "shipping_charged": 0.0,
+    "shipping_cost": 0.0,
+    "target_profit": 12.0
+  },
+  "products": [
+    {
+      "name": "Single original STL model",
+      "notes": "ESTIMATE band \u2014 validate with Stage 3 before launch",
+      "price_band": [
+        6.0,
+        15.0
+      ]
+    },
+    {
+      "name": "Themed STL pack (3-5 models)",
+      "notes": "ESTIMATE band \u2014 bundles carry digital margins, same as SVG",
+      "price_band": [
+        15.0,
+        30.0
+      ]
+    },
+    {
+      "name": "Board-game insert / organiser set (STL)",
+      "notes": "ESTIMATE band \u2014 thin per-game competition, loyal buyers (tool-reported for physical; file demand untested)",
+      "price_band": [
+        12.0,
+        25.0
+      ]
+    },
+    {
+      "name": "Physical print of your own model (optional lane)",
+      "notes": "Price at 3-5x your TRUE unit cost (filament+power+wear+5-15% failures+time); pet tags/gear reported $8-60, keychains $5-12",
+      "price_band": [
+        15.0,
+        60.0
+      ]
+    }
+  ],
+  "shop_type": "digital-download",
+  "summary": "Original 3D models, modelled by you (Blender is the free, open-source tool), sold as STL downloads. Research verdict (2026-11-23): anything a stranger can download free (flexi dragons, generic stands) has collapsed in price \u2014 original, hobby-specific, problem-solving and personalised models hold value. One modelling session can feed two listings: the file, and a physical print of your own design (allowed under the June 2025 original-design rule; bought/free files printed as-is are NOT)."
+}

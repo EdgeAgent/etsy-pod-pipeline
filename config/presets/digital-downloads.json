@@ -1,0 +1,134 @@
+{
+  "_comment": "PRESET: digital design/pattern downloads. Price bands are USD, from docs/research-findings-2026-11-23.md (live-listing bands, directional). Pricing block: digital has NO production or shipping cost \u2014 the calculator runs with zeros; the only per-sale costs are Etsy's fees. Listing fee in the pricing defaults is US$0.20.",
+  "affiliate_picks": [
+    {
+      "category": "Cutting machines and craft tools (Cricut-class)",
+      "channel": "Amazon Associates \u2014 tutorial content and the shop's social profiles",
+      "notes": "The machine your buyers use with your files; promoted off Etsy only.",
+      "price_band": [
+        50.0,
+        300.0
+      ]
+    },
+    {
+      "category": "Vinyl, blanks and craft supplies",
+      "channel": "Amazon Associates \u2014 project posts showing your designs in use",
+      "notes": "Consumables your buyers re-order; honest reviews only.",
+      "price_band": [
+        10.0,
+        40.0
+      ]
+    },
+    {
+      "category": "Cutting mats, weeding tools and storage",
+      "channel": "Amazon Associates \u2014 beginner-kit content",
+      "notes": "Low ticket, high fit with bundle buyers.",
+      "price_band": [
+        8.0,
+        30.0
+      ]
+    }
+  ],
+  "brief": {
+    "audience": "Cricut crafters",
+    "brand": "our shop",
+    "delivery_type": "digital",
+    "design_phrase": "Bloom Where You Are Planted",
+    "keywords": [
+      "svg bundle",
+      "cricut svg",
+      "garden svg",
+      "plant lover svg",
+      "cut file bundle",
+      "svg files for cricut",
+      "craft svg",
+      "green thumb gift",
+      "gardener svg",
+      "funny plant svg"
+    ],
+    "materials": [
+      "Digital files: SVG, PNG and DXF delivered in one ZIP \u2014 no physical item ships"
+    ],
+    "product": "SVG Bundle",
+    "title_keywords": [
+      "Cricut Cut Files",
+      "Instant Download"
+    ]
+  },
+  "creation_path": [
+    "Stage 3 research names the niche community and the bundle shape buyers already pay for",
+    "Write the design brief: your motifs, your lettering, your style \u2014 franchise bundles in search results are infringement stock, not inspiration",
+    "Produce the original files to spec: clean vector paths, exported as SVG + PNG + DXF inside one ZIP; every file <=20 MB, max 5 files per listing",
+    "Price with pipeline/pricing.py at zero production cost; singles build reviews, bundles carry the margin (Stage 5)",
+    "Generate the listing pack with pipeline/listing.py (Stage 6), licence terms stated, publish gate (Stage 7), then test-download your own files"
+  ],
+  "delivery": "Instant download \u2014 Etsy delivers the files at checkout; no shipping, no fulfilment, no Printify (skip Stage 2 and the Printify half of Stage 5)",
+  "id": "digital-downloads",
+  "launch_checklist": [
+    "Stage 1: intake answered \u2014 existing shop health-checked (Etsy Payments active, bank verified, shop policies set, production partners disclosed); no shop yet \u2192 appendix walkthrough first (docs/appendix-shop-creation.md)",
+    "Stage 2: SKIPPED \u2014 no Printify for downloads; note it and move on",
+    "Stage 3: niche scored with pipeline/scoring.py; confirm the designs are yours (Etsy requires digital items be made/designed by the seller)",
+    "Stage 4: files exported clean; SVG/PNG/DXF packed in a ZIP; every file <=20 MB; max 5 files per listing; filenames <=70 chars (buyers see them)",
+    "Stage 5: price with the calculator at zero product/shipping cost; check the fee-only margin at your band's low end too",
+    "Stage 6: listing pack generated; description states INSTANT DOWNLOAD, no physical item, file formats, and your licence terms (personal vs commercial use); AI disclosure if AI assisted",
+    "Stage 7: human approves the exact files + pack; publish as a Digital listing; read the live listing back and test-download your own files",
+    "Stage 8: no fulfilment to watch \u2014 watch download problems, licence questions, and reviews instead; weekly review as written"
+  ],
+  "name": "Digital Design & Pattern Downloads",
+  "niche": "Original niche SVG/pattern work for a tight community (profession, pet breed, hobby) \u2014 never franchise bundles, which dominate raw search results and are infringement stock",
+  "pricing": {
+    "_comment": "Digital sale: zero production/shipping costs by definition. Price shown is the 10-design bundle band midpoint.",
+    "high_volume_shop": false,
+    "international": false,
+    "offsite_ads": false,
+    "price": 19.95,
+    "product_cost": 0.0,
+    "shipping_charged": 0.0,
+    "shipping_cost": 0.0,
+    "target_profit": 15.0
+  },
+  "products": [
+    {
+      "name": "Single niche SVG design",
+      "notes": "Entry/review builder; priced for volume, not margin",
+      "price_band": [
+        3.0,
+        8.0
+      ]
+    },
+    {
+      "name": "5-design niche bundle",
+      "notes": "Best entry bundle per the SVG pricing ladder",
+      "price_band": [
+        8.0,
+        15.0
+      ]
+    },
+    {
+      "name": "10-design niche bundle",
+      "notes": "Most popular bundle size among buyers (tool-reported)",
+      "price_band": [
+        15.0,
+        25.0
+      ]
+    },
+    {
+      "name": "20+ design mega bundle",
+      "notes": "Average-order-value driver; assemble from designs you already sell",
+      "price_band": [
+        25.0,
+        45.0
+      ]
+    },
+    {
+      "name": "Printable planner / pattern pack (PDF)",
+      "notes": "Planners reported $8-25 with annual-refresh repeat buyers; patterns must be human-authored (Etsy bars purely AI-generated functional instructions)",
+      "price_band": [
+        8.0,
+        25.0
+      ]
+    }
+  ],
+  "shop_type": "digital-download",
+  "summary": "Your own SVG cut files, patterns, printables and template packs, sold as instant downloads. Research verdict (2026-11-23): singles are the cheapest product on Etsy ($2-8) \u2014 bundles carry the business (10-design $15-25, mega bundles $25-45). Files must be made/designed by you; .svg is NOT an accepted direct upload format, so SVGs ship inside a ZIP (max 5 files per listing, 20 MB each, no variations on digital listings)."
+}

@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300">
+  <rect width="1200" height="300" fill="#1a120b"/>
+  <rect x="24" y="24" width="1152" height="252" fill="none" stroke="#f1641e" stroke-width="3"/>
+  <text x="600" y="104" font-family="Georgia, 'Times New Roman', serif" font-size="64" font-weight="bold" fill="#ffffff" text-anchor="middle">ETSY POD PIPELINE</text>
+  <text x="600" y="146" font-family="Verdana, Geneva, sans-serif" font-size="23" fill="#f8b88a" text-anchor="middle">Intake → Setup → Printify → Research → Design → Build → SEO → Publish Gate → Orders</text>
+  <text x="600" y="188" font-family="Verdana, Geneva, sans-serif" font-size="21" fill="#d8cfc4" text-anchor="middle">Six shop types · Pick a preset, it's ready · Your products + affiliate picks</text>
+  <text x="600" y="228" font-family="Verdana, Geneva, sans-serif" font-size="19" fill="#d8cfc4" text-anchor="middle">Original designs only · Real fee math · Nothing publishes without a human yes</text>
+  <text x="600" y="260" font-family="Verdana, Geneva, sans-serif" font-size="16" fill="#9a8d7d" text-anchor="middle">A Muse skill + toolkit — the honest version of the "Etsy Production Terminal"</text>
+</svg>
